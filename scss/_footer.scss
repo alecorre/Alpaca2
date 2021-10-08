@@ -1,0 +1,39 @@
+
+footer{
+    background-image: url("../css/multimedia/tira.png");
+    color:#3a86d5;
+    font-family: 'Montserrat Alternates';
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+    
+
+}
+footer h5{
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+}
+footer .redes {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    list-style: none;  
+}
+footer .redes i{
+    color: black;
+    font-size: 1.5rem;  
+}
+footer .redes i:hover{
+    color: white;
+}
+
+footer li{
+    padding: 0 0.5rem; 
+    list-style: none; 
+}
+
+footer ul {
+    display: flex;
+}
+

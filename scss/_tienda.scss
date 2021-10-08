@@ -1,0 +1,42 @@
+.fondo-tienda{ 
+    background-image: linear-gradient(#02a0da,#77dd77);
+
+    padding: 1.8rem 0;
+    margin-top: 2rem;    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);     
+    grid-row-gap: 30px;   
+}
+
+.fondo-tienda article{    
+    color: white; 
+    font-size: 1rem;   
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-rows: auto auto auto auto;
+    align-items: center;  
+    justify-items: center; 
+    grid-gap: 0.5rem;   
+    
+}
+.fondo-tienda img{   
+    grid-row: 1;   
+}
+.fondo-tienda .descripcion {   
+    grid-row: 2;   
+}
+.fondo-tienda .precio {   
+    grid-row: 3;   
+}
+.fondo-tienda button{   
+    grid-row: 4;
+    padding: 0.3rem;
+}
+
+main h3{
+    color:#02a0da;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates';
+    text-decoration-line: none;
+}

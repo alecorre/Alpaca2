@@ -1,0 +1,71 @@
+/*Grilla */
+
+.grid-container {
+	display: grid;
+	margin: 40px 0 40px 0;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(1,500px);
+	gap: 1px 1px;
+	text-align: center;
+	justify-content: stretch;
+	grid-template-areas:
+	"bannerUno bannerUno bannerUno bannerUno"
+	"noticiaCinco noticiaSeis noticiaSiete noticiaCuatro";
+	text-decoration-line: none;
+	font-family: 'Montserrat Alternates';
+	font-size: 2.5rem;
+}
+
+.bannerUno {
+	grid-area: bannerUno;
+	background-color: white;
+	border-radius: 25px;
+    border: 2px solid white;
+	
+	
+}
+.noticiaTres {
+	margin-top: 20px;
+	grid-area: noticiaTres;
+	background-color: #02a0da;
+	border-radius: 25px;
+    border: 2px solid white;
+	color:white;
+}
+.noticiaDos {
+	margin-top: 20px;
+	grid-area: noticiaDos;
+	background-color: #02a0da;
+	border-radius: 25px;
+    border: 2px solid white;
+	color:white;
+}
+.noticiaCuatro {
+	margin-top: 20px;
+	grid-area: noticiaCuatro;
+	background-color: pink;
+	border-radius: 25px;
+    border: 2px solid white;
+}
+.noticiaCinco {
+	margin-top: 20px;
+	grid-area: noticiaCinco;
+	background-color: #50D8C8;
+	border-radius: 25px;
+    border: 2px solid white;
+}
+.noticiaSeis {
+	margin-top: 20px;
+	grid-area: noticiaSeis;
+	background-color: pink;
+	border-radius: 25px;
+    border: 2px solid white;
+}
+.noticiaSiete {
+	margin-top: 20px;
+	grid-area: noticiaSiete;
+	background-color: #50D8C8;
+	border-radius: 25px;
+    border: 2px solid white;
+}
+

@@ -1,0 +1,67 @@
+/* header */
+
+
+div h3
+{
+    color:#3a86d5;
+    font-size: 50px;
+    font-family: 'Montserrat Alternates';
+    text-decoration-line: none;
+    text-align:center;
+}
+
+ /* Header/Blog Title */
+ .header {
+    padding: 70px;
+    text-align: center;
+    background:#3a86d5;
+    background-image: url("../css/multimedia/fondo1.jpg");
+    border-radius: 25px;
+    border: 2px solid white;
+    font-family: 'Montserrat Alternates';
+    
+  }
+  
+  .header h1 {
+    font-size: 90px;
+    margin: auto;
+    padding-top: 100px;
+    color: #3a86d5;
+    
+    
+  }
+  
+ 
+ 
+  .topnav{
+    height: 50px;
+    background-color:#3a86d5;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #3a86d5;
+    
+  }
+ 
+  .topnav ul{
+     list-style: none;
+     display: inline-block;
+     
+  }
+ 
+  .topnav ul li{
+      float: left;
+      
+  }
+ 
+  .topnav ul li a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 18px;
+  }
+ 
+  .topnav ul li a:hover{
+    background-color: #929fb3;
+  }
+ 
